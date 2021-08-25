@@ -1,121 +1,63 @@
 body{
   background-color: black;
-}
-h1{
-  color: black;
-  margin-left:80PX;
-  font-size: 30px;
-   font-style: oblique;
+  text-align: center;}
+
+.categories{
+  color: white;
+  text-align: center;
+  font-size: 20px;
 }
 
-.button{
-  color: black;
-  background-color: #black;
-  font-size: 30px;
-  margin-left: 40px;
-
+h2{
+  color: white;
+  background-color: black;
+ border: 2px solid #e7e7e7;
 }
 
-.button:hover{
-  background-color: #4CAF50; /* Green */
-   color: white;
+.engine{
+  position: absolute;
+  top: 120px;
+  left: 200px;
 }
 
-/*--------location-------------------------------------*/
-.Riffa{
-  background-color: #FF7F50;
-  margin-left:0PX;
-  position: relative;
-padding-top:1px;
-padding-bottom:2px;
-padding-left: 500px;
-}
-/*-- toyota-mazda -------------------------------------*/
-.toyota{
-  position:absolute;
-  top: 130px;
-  left:160px;
-  right:160px;
-}
-.mazda{
-  position:absolute;
-  top: 130px;
-  left:490px;
-    right:160px;
-}
-/*-- nissan-mitsubishi -------------------------------------*/
-.nissan{
-  position:absolute;
-  top: 130px;
-  left:820px;
-    right:160px;
-}
-.mitsubishi{
-  position:absolute;
-  top: 130px;
-  left:1150px;
-    right:160px;
-}
-/*-- honda-chevrolet---------------------------------------*/
-.honda{
-  position:absolute;
-  top: 360px;
-  left:160px;
-  right:160px;
-}
-.chevrolet{
-  position:absolute;
-  top: 360px;
-  left:490px;
-  right:160px;
+.cooling{
+  position: absolute;
+  top: 120px;
+  left: 550px;
 }
 
-
-/*-- renault-peugeot---------------------------------------*/
-.renault{
-  position:absolute;
-  top: 360px;
-  left:820px;
-    right:160px;
-}
-.peugeot{
-  position:absolute;
-  top: 360px;
-  left:1150px;
-    right:160px;
+.chassis{
+  position: absolute;
+  top: 120px;
+  left: 900px;
 }
 
-/*--bmw-volkswagen-----------------------------------------*/
-.bmw{
-  position:absolute;
-  top: 580px;
-  left:160px;
-    right:160px;
-}
-.volkswagen{
-  position:absolute;
-  top: 580px;
-  left:490px;
-    right:160px;
+.steering{
+  position: absolute;
+  top: 550px;
+  left: 200px;
 }
 
-/*--daihatsu-audi-----------------------------------------*/
-
-.audi {
-  position:absolute;
-  top: 580px;
-  left:1150px;
-    right:160px;
+.electrical{
+  position: absolute;
+  top: 550px;
+  left: 550px;
 }
-.daihatsu-audi{
-    position:absolute;
-    top: 580px;
-    left:820px;
-      right:160px;
-  }
 
-.toyota-mazda{
-  padding-top: 670px;
-    right:160px;
+.ignition{
+  position: absolute;
+  top: 550px;
+  left: 900px;
 }
-/*
+
+.hvac{
+  position: absolute;
+  top: 990px;
+  left: 190px;
+}
+
+.lubricants{
+  position: absolute;
+  top: 990px;
+  left: 750px;
+}
