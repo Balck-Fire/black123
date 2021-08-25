@@ -1,0 +1,120 @@
+body{
+  background-color: black;
+}
+h1{
+  color: black;
+  margin-left:500PX;
+  font-size: 30px;
+   font-style: oblique;
+}
+
+.button{
+  color: black;
+  background-color: #black;
+  font-size: 30px;
+  margin-left: 40px;
+
+}
+
+.button:hover{
+  background-color: #4CAF50; /* Green */
+   color: white;
+}
+
+/*--------location-------------------------------------*/
+.Riffa{
+  background-color: #FF7F50;
+  margin-left:0PX;
+  position: relative;
+padding-top:1px;
+padding-bottom:2px;
+}
+/*-- toyota-mazda -------------------------------------*/
+.toyota{
+  position:absolute;
+  top: 130px;
+  left:160px;
+  right:160px;
+}
+.mazda{
+  position:absolute;
+  top: 130px;
+  left:490px;
+    right:160px;
+}
+/*-- nissan-mitsubishi -------------------------------------*/
+.nissan{
+  position:absolute;
+  top: 130px;
+  left:820px;
+    right:160px;
+}
+.mitsubishi{
+  position:absolute;
+  top: 130px;
+  left:1150px;
+    right:160px;
+}
+/*-- honda-chevrolet---------------------------------------*/
+.honda{
+  position:absolute;
+  top: 360px;
+  left:160px;
+  right:160px;
+}
+.chevrolet{
+  position:absolute;
+  top: 360px;
+  left:490px;
+  right:160px;
+}
+
+
+/*-- renault-peugeot---------------------------------------*/
+.renault{
+  position:absolute;
+  top: 360px;
+  left:820px;
+    right:160px;
+}
+.peugeot{
+  position:absolute;
+  top: 360px;
+  left:1150px;
+    right:160px;
+}
+
+/*--bmw-volkswagen-----------------------------------------*/
+.bmw{
+  position:absolute;
+  top: 580px;
+  left:160px;
+    right:160px;
+}
+.volkswagen{
+  position:absolute;
+  top: 580px;
+  left:490px;
+    right:160px;
+}
+
+/*--daihatsu-audi-----------------------------------------*/
+
+.audi {
+  position:absolute;
+  top: 580px;
+  left:1150px;
+    right:160px;
+}
+.daihatsu-audi{
+    position:absolute;
+    top: 580px;
+    left:820px;
+      right:160px;
+  }
+
+.toyota-mazda{
+  padding-top: 670px;
+    right:160px;
+}
+/*
